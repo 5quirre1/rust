@@ -33,8 +33,8 @@ fn main() {
     }
     // ok
     if check {
-        println!("you and friend wanted to go to atleast one of the same places!!")
+        println!("you and friend wanted to go to atleast one of the same places!!");
     } else {
-        println!("u and friend didn't want to go to same places.")
+        println!("u and friend didn't want to go to same places.");
     }
 }
