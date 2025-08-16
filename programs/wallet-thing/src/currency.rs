@@ -18,6 +18,6 @@ pub fn get_currencies() -> HashMap<&'static str, f64> {
     currencies.insert("10 dollar", 10.00);
     currencies.insert("20 dollar", 20.00);
     currencies.insert("50 dollar", 50.00);
-    currencies.insert("100 Dollar", 100.00);
+    currencies.insert("100 dollar", 100.00);
     currencies
 }
