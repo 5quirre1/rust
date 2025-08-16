@@ -1,0 +1,7 @@
+[package]
+name = "money-counter-lawl"
+edition = "2024"
+version = "0.1.0"
+
+[dependencies]
+inquire = "0.7.5"
