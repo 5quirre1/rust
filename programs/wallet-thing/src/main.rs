@@ -2,6 +2,8 @@ mod currency;
 
 use inquire::{MultiSelect, Text};
 use std::collections::HashMap;
+use std::io;
+use std::io::Write;
 
 fn main() {
     let currencies = currency::get_currencies();
@@ -56,4 +58,11 @@ fn main() {
     }
 
     println!("\ntotal money: ${:.2}", total);
+
+    print!("\n\npress enter to exit..");
+    io::stdout().flush().unwrap();
+    let mut d = String::new();
+    io::stdin()
+        .read_line(&mut d)
+        .expect("failed to read line.,.,");
 }
